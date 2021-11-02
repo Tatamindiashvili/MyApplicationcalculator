@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <TextView
+android:layout_width="702dp"
+android:layout_height="114dp"
+android:layout_weight="4"
+android:background="#E6E6EF"
+android:gravity="end"
+android:text="345+(35X3)=450"
+android:textColor="@color/black"
+android:textSize="40sp"
+tools:layout_editor_absoluteX="-11dp"
+tools:layout_editor_absoluteY="234dp"
+tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#4C9FE8"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="("
+        android:textColor="#0D47A1"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,DuplicateClickableBoundsCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="633dp" />
+
+
+<TextView
+android:layout_width="174dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="@string/log"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="0dp"
+tools:layout_editor_absoluteY="516dp"
+tools:ignore="MissingConstraints" />
+
+
+<TextView
+android:layout_width="182dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="@string/tan"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="521dp"
+tools:layout_editor_absoluteY="516dp"
+tools:ignore="MissingConstraints" />
+
+<TextView
+android:layout_width="174dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="@string/cos"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="174dp"
+tools:layout_editor_absoluteY="516dp"
+tools:ignore="MissingConstraints" />
+
+
+<TextView
+android:layout_width="174dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="@string/sin"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="348dp"
+tools:layout_editor_absoluteY="516dp"
+tools:ignore="MissingConstraints" />
+
+
+<TextView
+android:layout_width="184dp"
+android:layout_height="116dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="%"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:ignore="MissingConstraints"
+tools:layout_editor_absoluteX="519dp"
+tools:layout_editor_absoluteY="633dp" />
+
+<TextView
+android:layout_width="174dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="("
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="0dp"
+tools:layout_editor_absoluteY="633dp"
+tools:ignore="MissingConstraints" />
+
+
+<TextView
+android:layout_width="174dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text=")"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="174dp"
+tools:layout_editor_absoluteY="633dp"
+tools:ignore="MissingConstraints" />
+
+<TextView
+android:layout_width="174dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text=" √"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="348dp"
+tools:layout_editor_absoluteY="633dp"
+tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="752dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="752dp" />
+
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="3"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="348dp"
+        tools:layout_editor_absoluteY="752dp" />
+
+<TextView
+android:layout_width="181dp"
+android:layout_height="124dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="*"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="519dp"
+tools:layout_editor_absoluteY="744dp"
+tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="4"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="869dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="5"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="869dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="6"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="869dp" />
+
+<TextView
+android:layout_width="190dp"
+android:layout_height="118dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:text="/"
+android:onClick="numberClick"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:layout_editor_absoluteX="519dp"
+tools:layout_editor_absoluteY="868dp"
+tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="7"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="980dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="8"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="980dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="@string/_9"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="347dp"
+        tools:layout_editor_absoluteY="986dp" />
+
+<TextView
+android:layout_width="169dp"
+android:layout_height="112dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:onClick="numberClick"
+android:text="-"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:ignore="MissingConstraints"
+tools:layout_editor_absoluteX="519dp"
+tools:layout_editor_absoluteY="986dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1096dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="118dp"
+        android:layout_weight="1"
+        android:background="#0BBFAF"
+        android:gravity="center"
+        android:onClick="numberClick"
+        android:text="@string/string"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        tools:ignore="MissingConstraints,TextContrastCheck,TextContrastCheck"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="1096dp" />
+
+<TextView
+android:layout_width="178dp"
+android:layout_height="111dp"
+android:layout_weight="1"
+android:background="#F7F69676"
+android:gravity="center"
+android:onClick="numberClick"
+android:text="Del"
+android:textColor="@color/white"
+android:textSize="30sp"
+tools:ignore="MissingConstraints"
+tools:layout_editor_absoluteX="344dp"
+tools:layout_editor_absoluteY="1103dp" />
+
+<TextView
+android:layout_width="167dp"
+android:layout_height="115dp"
+android:layout_weight="1"
+android:background="#D6E2EA"
+android:gravity="center"
+android:onClick="numberClick"
+android:text="+"
+android:textColor="@color/black"
+android:textSize="30sp"
+tools:ignore="MissingConstraints"
+tools:layout_editor_absoluteX="521dp"
+tools:layout_editor_absoluteY="1098dp" />
+
+<TextView
+android:layout_width="737dp"
+android:layout_height="103dp"
+android:layout_weight="1"
+android:background="#6219E6"
+android:gravity="center"
+android:onClick="numberClick"
+android:text="="
+android:textColor="@color/white"
+android:textSize="30sp"
+tools:ignore="MissingConstraints"
+tools:layout_editor_absoluteX="-27dp"
+tools:layout_editor_absoluteY="1214dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
